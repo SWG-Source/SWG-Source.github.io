@@ -42,8 +42,13 @@
           <span class="credits right">Join us on <a href="https://discord.gg/Va8e6n8" target="_blank">Discord</a></span>
           <br /><hr>
           <ul class="nav">
-            <li>{% if page.url != "/" %}<a href="/">{% endif %}Home{% if page.url != "/" %}</a>{% endif %}</li>
-            <li>{% if page.url != "/docs.html" %}<a href="/docs.html">{% endif %}Docs{% if page.url != "/docs.html" %}</a>{% endif %}</li>
+            {% for item in site.data.nav %}
+            <li>
+              {% if page.url != item.link %}<a href="{{ item.link }}">{% endif %}
+              {{ item.name }}
+              {% if page.url != item.link %}</a>{% endif %}
+            </li>
+            {% endfor %}
           </ul>
         </div>
 
