@@ -2,3 +2,6 @@ theme: jekyll-theme-midnight
 repository: SWG-Source/SWG-Source.github.io
 title: SWG Source
 description: Run your own private SWG Server (and help us develop it!)
+collections:
+  docs:
+    output: true
