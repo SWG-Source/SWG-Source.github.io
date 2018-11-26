@@ -1,5 +1,4 @@
 ---
-layout: docs
-Title: Installation
+title: Installation
 ---
 ## Installation Insctructions
