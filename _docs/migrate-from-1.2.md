@@ -26,7 +26,7 @@ Finally, boot your server!
 
 If you are using the v1.2 Client, you can configure it to get updates from the client-assets repository.
 
-If you haven't already, you will need to install Git for Windows. https://git-scm.com/download/win
+If you haven't already, you will need to install Git for Windows from [here](https://git-scm.com/download/win).
 
 Open a GIT Bash in your client folder. Run the following commands one at a time:
 ```
@@ -35,3 +35,10 @@ git remote add -f origin https://github.com/SWG-Source/client-assets.git
 git checkout master
 ```
 You may now get updates to your client by opening a GIT Bash and running: `git pull`
+
+__*Note:*__ If you have already configured your client to get updates from the client-assets repository on BitBucket, you should not use the commands listed above. Instead, you should be able to use these:
+```
+git remote remove origin
+git remote add origin https://github.com/SWG-Source/client-assets.git
+```
+Test with `git pull` to make sure the reconfiguration worked.
