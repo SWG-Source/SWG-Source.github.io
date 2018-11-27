@@ -36,9 +36,4 @@ git checkout master
 ```
 You may now get updates to your client by opening a GIT Bash and running: `git pull`
 
-__*Note:*__ If you have already configured your client to get updates from the client-assets repository on BitBucket, you should not use the commands listed above. Instead, you should be able to use these:
-```
-git remote remove origin
-git remote add origin https://github.com/SWG-Source/client-assets.git
-```
-Test with `git pull` to make sure the reconfiguration worked.
+__*Note:*__ If you have already configured your client to get updates from the client-assets repository on BitBucket, insctructions on how to switch are in developement. In the meantime, it's easiest to start from a fresh unpack of the client if you still have the archive or else grab v1.2.1 which is already preconfigured.
