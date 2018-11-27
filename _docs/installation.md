@@ -24,10 +24,9 @@ You will then need to put your IP Address in your hosts file. Open a terminal an
 
 Next, you will need to put your IP Address in the SWG config files. Open the link on the desktop to access your config files.
 The files you need to edit are:
-* localOptions.cfg
+* localOptions.cfg (4 instances)
 * nodes.cfg
-
-...(add more files here)
+* default.cfg
 
 ## Adjust other config settings as needed
 
