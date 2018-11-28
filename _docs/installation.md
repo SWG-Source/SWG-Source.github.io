@@ -4,9 +4,9 @@ title: Installation
 # Installation Insctructions
 <br />
 ## Stuff To Download
-To get setup with the SWG Source platform,  you will need the server and client archives: (links coming soon)
-* SWG Source Server v1.2.1
-* SWG Source Client v1.2.1
+To get setup with the SWG Source platform,  you will need the server and client archives:
+* [SWG Source Server v1.2.1](https://bit.ly/SWGSourceServer121)
+* [SWG Source Client v1.2.1](https://bit.ly/SWGSourceClient121)
 
 You will also need [7zip](https://www.7-zip.org/) to open those archives and [Oracle VirtualBox](https://www.virtualbox.org/) to run the server VM. (It is also recommended that you install the Extension Pack for USB 3.0 support.)
 
