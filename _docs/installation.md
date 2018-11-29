@@ -30,7 +30,7 @@ The files you need to edit are:
 
 ## Adjust other config settings as needed
 
-Most of the stuff you might want to change is in localOptions.cfg. Noteably, this is the file where you can select which zones (ie: planets) are going to load. By default, only Tatooine will load. This is a great way to make sure everything will run. If you want to load more zones, first make sure that you have enough RAM. Then, remove the # from each line that you want to load. Save the file, and you're ready to rock and roll...
+Most of the stuff you might want to change is in localOptions.cfg. Notably, this is the file where you can select which zones (ie: planets) are going to load. By default, only Tatooine will load. This is a great way to make sure everything will run. If you want to load more zones, first make sure that you have enough RAM. Then, remove the # from each line that you want to load. Save the file, and you're ready to rock and roll...
 
 ## Run your server!
 
