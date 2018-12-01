@@ -34,7 +34,7 @@ Most of the stuff you might want to change is in localOptions.cfg. Notably, this
 
 ## Run your server!
 
-Open Terminator terminal by clicking the red terminal link towards to left hand side of the taskbar. This should bring up a window with 4 terminals. The top two give you helpful information about your system. The bottom two will run your server. First, use the bottom right hand window to run `./chatServer`. Then, in the bottom left hand window, run `./startServer.sh`. Wait for the server to load. The terminal will let you know when the server is ready for players.
+Open Terminator terminal by clicking the red terminal link towards to left hand side of the taskbar. This should bring up a window with 4 terminals. The top two give you helpful information about your system. The bottom two will run your server. First, use the bottom right hand window to run `./stationchat`. Then, in the bottom left hand window, run `./startServer.sh`. Wait for the server to load. The terminal will let you know when the server is ready for players.
 
 ## Run your client!
 
