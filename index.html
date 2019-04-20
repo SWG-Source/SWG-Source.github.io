@@ -1,12 +1,35 @@
----
-title: Home
----
-<h1>Welcome to SWG Source!</h1>
-<p>To get started, check out the following downloads:
-  <ul>
-    <li><a href="https://bit.ly/SWGSourceServer121" target="_blank">SWG Source Server v1.2.1</a></li>
-    <li><a href="https://bit.ly/SWGSourceClient121" target="_blank">SWG Source Client v1.2.1</a></li>
-  </ul>
-</p>
-<p>To run the server, you will need <a href="https://www.virtualbox.org/" target="_blank">Oracle VirtualBox</a>.</p>
-<p>To find all kinds of helpful documentation and information, check out the <a href="https://github.com/SWG-Source/swg-main/wiki">swg-main wiki</a>.</p>
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          <span class="credits left">Check us out on <a href="{{ site.github.owner_url }}">GitHub</a></span>
+          <span class="credits right">Join us on <a href="https://discord.gg/Va8e6n8" target="_blank">Discord</a></span>
+          <br /><hr>
+        </div>
+        <h1>Welcome to SWG Source!</h1>
+        <p>To get started, check out the following downloads:
+          <ul>
+            <li><a href="https://bit.ly/SWGSourceServer121" target="_blank">SWG Source Server v1.2.1</a></li>
+            <li><a href="https://bit.ly/SWGSourceClient121" target="_blank">SWG Source Client v1.2.1</a></li>
+          </ul>
+        </p>
+        <p>To run the server, you will need <a href="https://www.virtualbox.org/" target="_blank">Oracle VirtualBox</a>.</p>
+        <p>To find all kinds of helpful documentation and information, check out the <a href="https://github.com/SWG-Source/swg-main/wiki">swg-main wiki</a>.</p>
+      </section>
+    </div>
+  </body>
+</html>
