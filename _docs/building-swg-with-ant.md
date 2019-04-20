@@ -1,6 +1,8 @@
 ---
 title: Building SWG with ANT
 ---
+# Building SWG with ANT
+
 We now use Apache Ant to build the SWG codebase.  Apache Ant is a scripting tool that is specifically made to build software projects into usable applications.  You can find out more here: https://ant.apache.org/
 
 The way Ant works is by calling it from the command line in this format:
